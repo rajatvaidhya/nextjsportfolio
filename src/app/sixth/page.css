@@ -1,0 +1,72 @@
+.heartsSvg {
+  height: 300px;
+  width: 300px;
+}
+
+.heartsSvg img {
+  height: 100%;
+  width: 100%;
+}
+
+.meetSection{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* height:100vh; */
+}
+
+.insideMeet{
+    display:flex;
+    width:80%;
+    overflow: hidden;
+    color:black;
+    align-items: center;
+    gap:2rem;
+    margin-left: 3rem;
+}
+
+.meetText{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+.meetText h2{
+    font-size: 64px;
+    font-weight: 200;
+}
+
+.meetText p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.follows{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.follows div{
+    height:40px;
+    width:40px;
+}
+
+.follows div img{
+    height:100%;
+    width:100%;
+}
+
+@media screen and (max-width:768px){
+    .insideMeet{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .follows{
+        margin-top: 4rem;
+    }
+}

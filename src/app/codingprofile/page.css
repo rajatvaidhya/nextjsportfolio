@@ -1,0 +1,81 @@
+.main-coding-profile-section{
+    background-color: #f2f2f2;
+}
+
+.main-coding-profile-section h2{
+    font-size: 64px;
+    text-align: center;
+    font-weight: 200;
+    color:black;
+    padding-top: 7rem;
+}
+
+.platform-image{
+    width:50%;
+}
+
+.platform-image img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.coding-profiles{
+    display: flex;
+    gap:1rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    padding-bottom: 6rem;
+}
+
+.codechef-profile{
+    width:30%;
+    color:rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(247, 211, 207);
+    padding:20px;
+    border-radius: 20px;
+}
+
+.leetcode-profile{
+    width:50%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(20, 20, 20);
+    background-color: rgb(219, 209, 252);
+    border-radius: 20px;
+}
+
+.leetcode-profile img{
+    width:60%;
+}
+
+.hackerrank-profile{
+    background-color: rgb(155, 207, 96);
+    color:rgb(20,20,20);
+    font-size: 16px;
+    font-weight: 500;
+    padding:20px;
+    border-radius: 20px;
+    width:30%;
+}
+
+
+@media screen and (max-width:768px){
+    .main-coding-profile-section h2{
+        font-size: 50px;
+    }
+
+    .coding-profiles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .codechef-profile, .leetcode-profile, .hackerrank-profile{
+        width:100%;
+        font-size: 14px;
+    }
+}
