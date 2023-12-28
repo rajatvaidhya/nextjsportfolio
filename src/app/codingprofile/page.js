@@ -16,6 +16,7 @@ const page = () => {
           </div>
 
           <div className="codechef-bottom">
+          <p style={{marginBottom:'1rem'}}>Solved more than 120+ coding questions.</p>
             <p>Rating - 1612</p>
             <p>Ranking - Inactive</p>
           </div>
@@ -30,8 +31,8 @@ const page = () => {
 
           <div className="leetcode-bottom">
             <p style={{marginBottom:'1rem'}}>Solved more than 270+ coding questions.</p>
-            <p>Rating - 1510</p>
-            <p>Ranking - 300000</p>
+            <p>Rating - 1510 (Top - 39%)</p>
+            <p>Ranking - 234,154</p>
           </div>
         </div>
 
@@ -43,8 +44,8 @@ const page = () => {
           </div>
           <div className="hackerrank-bottom">
             <p>Certificate in problem solving (Basic).</p>
-            <p style={{ marginTop: "1rem" }}>5 star coder.</p>
-            <p>Ranking - 300000</p>
+            <p style={{ marginTop: "1rem" }}>5 Star Coder.</p>
+            <p>3 Star C++ Batch.</p>
           </div>
         </div>
       </div>

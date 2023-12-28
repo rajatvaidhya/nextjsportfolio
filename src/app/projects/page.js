@@ -92,7 +92,7 @@ const page = () => {
           <div className="project-card-bottom">
             <p>&#12539;Live</p>
 
-            <a href="https://shremish.netlify.app">
+            <a href="https://rajatvaidhya.vercel.app">
               <div>Visit</div>
             </a>
           </div>

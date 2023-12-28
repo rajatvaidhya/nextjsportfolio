@@ -78,9 +78,12 @@
 @media screen and (max-width:768px){
   .skills-content-tags{
     display: flex;
-    gap:0;
+    gap:1rem;
     justify-content: center;
-    width:100%;
+    width:90%;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
   }
 
   .skills-content-tags div{
@@ -95,6 +98,10 @@
   .skills-content-logos div img{
     height:80px;
     width:80px;
+  }
+
+  .skills-container{
+    height:60vh;
   }
 
   .skills-container h1{
