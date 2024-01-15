@@ -23,7 +23,7 @@ const page = () => {
           </div>
           <div className={styles.navbarButtons}>
             <button className={styles.firstNavButton}><a href="mailto:rajatvaidhya@gmail.com" target="_blank"> Email </a></button>
-            <button className={styles.secondNavButton}><a href="/myresume.pdf" target="_blank" >Resume 📑</a></button>
+            <button className={styles.secondNavButton}><a href="/RajatVaidhyaResume.pdf" target="_blank" >Resume 📑</a></button>
           </div>
         </div>
       </div>
